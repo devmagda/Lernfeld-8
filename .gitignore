@@ -1,3 +1,5 @@
 
 .idea
 
+docker/jenkins_data/workspace/*
+docker/jenkins_data/caches/*
