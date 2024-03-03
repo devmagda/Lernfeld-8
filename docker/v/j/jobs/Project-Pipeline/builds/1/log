@@ -1,0 +1,261 @@
+Started by user [8mha:////4FrQVFZ1XMN11amDOZkwD7LcgujLnEINT5TCxLce1KynAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained jenkins/pipeline/jenkinsfile from git https://github.com/devmagda/Lernfeld-8.git
+[8mha:////4ArI+UN5zfyQblgUKrvQjNF0njW6/f0etiEqkqfPzntxAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DAbUUK4PP95M5J8Mihd3+p3XZF/EEQYYqTEn4dwpF0lAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4E4HI2AJjHpUhG7LFm9n2s+/3XU3WtRD5RVnuM3cmuf1AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4DphFO2F1gqFD0OTh6SdUYxgKMu1HFALM6p1pwLOoy3eAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4K/8OUHja5d972r3GPf9jDJ5stcOIHdXtygRz8C4EQ1+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PvVGXGEvRr4IfMMnMeBejubdVrdh4WxnocYVFIoITcVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CHu47DRu61xlsIwXCk8zt6uVNKyurHBGMJBibCOxz3gAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/devmagda/Lernfeld-8.git
+ > git init /var/jenkins_home/workspace/Project-Pipeline # timeout=10
+Fetching upstream changes from https://github.com/devmagda/Lernfeld-8.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/devmagda/Lernfeld-8.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/devmagda/Lernfeld-8.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision e7554daa14b5dc2f44aaea3788ee8dea28377d35 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e7554daa14b5dc2f44aaea3788ee8dea28377d35 # timeout=10
+Commit message: "Added new System Checks"
+First time build. Skipping changelog.
+[8mha:////4DtWtB/vcjb2zaQj0kjk2JnHDf8CqXhHvfSP/FN4fekRAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Eg4FoilTduztHpYFDLN2aqP5MPgWv0mSMjy7R1vbstxAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4LRZ5EKGSQoP7y6kfCxA4b4jvKWbj1+HEtYoxei97e0KAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4C8oYtZTJAOtGN+uJJ3voxoLgNhNaRkxLfsK3aykwrkxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4IYuRAwHD/WNSWNXzpbAnweqMUWITElEOwqeIlDOROU0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4NmPJvkZJX5+IIrwjA+KlSQ9WpDZWL0GtOUdlxPuI+1XAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4O75NGMnEWWCshBVWbrRgxF7YIzrlpbp0oVTsdk8808oAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4HG9OofxBxKkSMJfQdzsQXZzUnkdQ/zzwe1UTuuhIrFKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4GGRQ5akoaVi9Wl51RNYhSafQ6vx3JpdCQ2VF5UTTI6NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Project-Pipeline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/devmagda/Lernfeld-8-Project.git # timeout=10
+Fetching upstream changes from https://github.com/devmagda/Lernfeld-8-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/devmagda/Lernfeld-8-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 0f0a80f8c7f4a9ea7532c68d659c4dbe1400bc43 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0f0a80f8c7f4a9ea7532c68d659c4dbe1400bc43 # timeout=10
+Commit message: "Added integration tests again"
+First time build. Skipping changelog.
+[8mha:////4AQEPAz+aMZG4Um3qFaLDh7qaU+X2MR6NTttHPoSoxAEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] echo
+Repository has been checked out successfully.
+[8mha:////4BybL4X5J8R/jKKAD2NrwrGNl+KTF3eeGTujpV0In3UUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDEhIiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gOLXOiKwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4AkqSaZ8W6nzYY78Ay8eTUmDhGkPAXbeCkPXXbfud2DzAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4Lkz266O6y4HmwhFvo0nB+cetie78etNiQCfvbK1kg0WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ chmod +x gradlew
+[8mha:////4Cz+6QcxMNpa8ievm0+RCKflg37aNoXZevzbYBIEjwFCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4Fb/Ga/V5F0vaDpEMbgSdJbwgBDJUDgfYwl1vbV1lM93AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // dir
+[8mha:////4APAjmtZ/UckNYBpXWBI0DlSI1orgjBp2FA0dI64kMy1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEFO/zRvgAAAA==[0m[Pipeline] }
+[8mha:////4EqkC1tLnfnPF6mOB0fojergGGle5INx9VugV+w/fujZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPys7/ru+AAAA[0m[Pipeline] // script
+[8mha:////4PyTqN4Vzfp54Bm7ZagKhfQT94+c6vzjcIIgXo202au+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wEtfcbuvgAAAA==[0m[Pipeline] }
+[8mha:////4PkgBpR9iCYQeufybZ0xtmxWsmmRTE/1aOnluR0DZkDsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QEVP1UfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Ez7cXNwUbpwZiUFL59ms4okmgO1W+S8s5Z4pm/fysfgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWFATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQFBh4/6wgAAAA==[0m[Pipeline] stage
+[8mha:////4L8l/Jy2f15hV/cpQn5mjKqVx1UQpeWRuFzhoL3t3utSAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4KL70XblEnCoVP2/EvPHwVlm8r6KkLXdgj/T0QtBuFnhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] script
+[8mha:////4Mc7XNzCB57he/k0/8xWgf4SYq8mdea/Qs9IVIC+FNeOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4C8IhUYRgVeEdOnPkzBUyPw0W2oANPancWC2T5iEggX1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4KVOCUC6HwqUMfZq5zVDCJDEMdk9pCUOSNAgN/yOZzKQAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4NZUdx3onY46djDH7QLNQoBQZ3Wzz+Bl6hgPq9P1oVKRAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ ./gradlew build
+Downloading https://services.gradle.org/distributions/gradle-7.6.4-bin.zip
+...........10%............20%............30%...........40%............50%............60%...........70%............80%............90%............100%
+
+Welcome to Gradle 7.6.4!
+
+Here are the highlights of this release:
+ - Added support for Java 19.
+ - Introduced `--rerun` flag for individual task rerun.
+ - Improved dependency block for test suites to be strongly typed.
+ - Added a pluggable system for Java toolchains provisioning.
+
+For more details see https://docs.gradle.org/7.6.4/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+> Task :test
+
+> Task :checkstyleMain
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:4:5: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:5:9: 'try' has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:6:13: 'try' child has incorrect indentation level 12, expected level should be 6. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:7:9: 'try rcurly' has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:8:13: 'catch' child has incorrect indentation level 12, expected level should be 6. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:9:9: 'catch rcurly' has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/Main.java:10:5: 'method def rcurly' has incorrect indentation level 4, expected level should be 2. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/StringUtils.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/StringUtils.java:4:5: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/StringUtils.java:5:9: 'method def' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/main/java/edu/p/eight/StringUtils.java:6:5: 'method def rcurly' has incorrect indentation level 4, expected level should be 2. [Indentation]
+Checkstyle rule violations were found. See the report at: file:///var/jenkins_home/workspace/Project-Pipeline/build/reports/checkstyle/main.html
+Checkstyle files with violations: 2
+Checkstyle violations by severity: [warning:11]
+
+
+> Task :checkstyleTest
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:2:1: 'package' should be separated from previous line. [EmptyLineSeparator]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:5:1: Import statement for 'org.junit.Assert.*' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line. [CustomImportOrder]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:5:31: Using the '.*' form of import should be avoided - org.junit.Assert.*. [AvoidStarImport]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:7:1: Missing a Javadoc comment. [MissingJavadocType]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:9:5: 'method def modifier' has incorrect indentation level 4, expected level should be 2. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:11:9: 'method def' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:12:9: 'method def' child has incorrect indentation level 8, expected level should be 4. [Indentation]
+[ant:checkstyle] [WARN] /var/jenkins_home/workspace/Project-Pipeline/src/test/java/edu/p/eight/StringUtilsTest.java:13:5: 'method def rcurly' has incorrect indentation level 4, expected level should be 2. [Indentation]
+Checkstyle rule violations were found. See the report at: file:///var/jenkins_home/workspace/Project-Pipeline/build/reports/checkstyle/test.html
+Checkstyle files with violations: 1
+Checkstyle violations by severity: [warning:8]
+
+
+> Task :check
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 4s
+6 actionable tasks: 6 executed
+[8mha:////4KK2IpTOtBaLDZd/yHPs8T+sNCaX8SXNPCWgGDtU4Qr2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4OUfWiUPS/YB5N7RytcWgcTkgDnBjoI56ps81rlxXfkyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // dir
+[8mha:////4MEcgtBc0vdTUiX2B97qOjLDgO6n4rqwWhH1eK2Z0QFSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEPNxplvgAAAA==[0m[Pipeline] }
+[8mha:////4PojYmFaQtOedoDuvj5NGdIrO4k630HT9IyczvFCmdO6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] // script
+[8mha:////4MYngrOWhWKK/QRx/RrSvWUJ74l3dBUEvfa8rGEfXHOPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQRMJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w8M79BIvgAAAA==[0m[Pipeline] }
+[8mha:////4FFM7NkRPw+HCJu4dzJuZnnMen1xfi4VNCP0nX0/E3HgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AOCEzE74AAAA=[0m[Pipeline] // stage
+[8mha:////4JHo16m4nKHkMXJ3clAv6uwjfTx1fqY8/HpI2gsUMkM5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUSmyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN8OCWoTCAAAA[0m[Pipeline] stage
+[8mha:////4FIDEfuSvmmNhdilzM9G0oHiDa+G1lRY8EqrLE8jHvIyAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (JUnit Tests)
+[8mha:////4DTuxym8ein6qIIvs4+Lv46j2QvJWvSsEBYpUSetzVhlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] echo
+Running test steps...
+[8mha:////4EPkMyOrcaoo9ijF8x1t3zsbkh4l7x3foNC1YTFjSk8kAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAX2HbZrCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4PZUIxYYFA9nQM6Nf40oi3vME3wGLOx/h/LElnswsPM5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4P9uz8buT1tFdZEPOMn4FE0R39P0soASnBvUmTre2HtTAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
++ ./gradlew test
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test UP-TO-DATE
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1s
+3 actionable tasks: 3 up-to-date
+[8mha:////4H94/ARgksydUYeiZr6uMmUhwVWpWpO1pWOlIhKLS26TAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4PO1Rsr6qkKlB38xj1a//tXePXWWgDmy7Fai+vilBSofAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // dir
+[8mha:////4BtUR6H52imD4OrFuZ0dnBeLABTKxPWq+ipmAoWTCRb/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2gzvGivgAAAA==[0m[Pipeline] }
+[8mha:////4IHyFFu5wQYuBYFPcUYzNFa28LKGmNcno54n8uUwLUfGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN5Mtqh6+AAAA[0m[Pipeline] // stage
+[8mha:////4JPYKrW8OOiFvuupM4g7t57LbwfTyLdOi+I1oO+Bl4BwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDkyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN3eJLSLCAAAA[0m[Pipeline] stage
+[8mha:////4NvUfCMAIY0Gyz84KZtJb1yO/iVX41wp/8WKhpxRgzVqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (Test Coverage)
+[8mha:////4AugD+mwjWLMVpSIz96kMBhzC7/3JVzApcvtWIGExWa9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] echo
+Running test steps...
+[8mha:////4NN34XO3gSTQbEttPHccYkOMA5b4/PdIlojXFXhrHwAxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6bAv6fCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4LtuB8sm0ncUG/8x7yMY2iPgAWb4g0le8/a2LavNrOZKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4CND3hasJWwCDKXzZv25d/Eqstl6/VKqU0sxwJNKxTDAAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkApR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3f4x1Rq74AAAA=[0m[Pipeline] sh
++ ./gradlew jacocoTestReport
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test UP-TO-DATE
+> Task :integrationTest NO-SOURCE
+> Task :jacocoTestReport
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+4 actionable tasks: 1 executed, 3 up-to-date
+[8mha:////4PI4IZW4wqji6TUy7jYXqUsavJmhlxIPY+Kva7XBjh4bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bqph/Ve+AAAA[0m[Pipeline] }
+[8mha:////4BsCTIbGe3JuKYlBssFrTi6CS7AbsMi3iW2BbJGCZuUCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGsJ8UCvgAAAA==[0m[Pipeline] // dir
+[8mha:////4FJrfw5x3JZ4H7pwEBlRtd0pJFCetUR5ka9cgSbaArMqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g1V9J0dvgAAAA==[0m[Pipeline] }
+[8mha:////4FvpeoOvBujN/XOnd8MMRl1w6MGckgfpX9eTo9yO1zTKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQ4EQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN2YXxqG+AAAA[0m[Pipeline] // stage
+[8mha:////4GR7b9FttmcxkPNvjLDaNQWTCWtAhiqAR59+EHKiPwRVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiULiyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN+qTxRPCAAAA[0m[Pipeline] stage
+[8mha:////4MnISeHk3oGECyQCmbKmwm9bSxjGy1CHOCET2FPRZV7OAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] { (Coding Style Guides)
+[8mha:////4D7UVE20UQcUDkaaXvqgO3lenBfdmqnAyGrw32o2CLKwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] echo
+Running test steps...
+[8mha:////4PVFWf3aOkNkR2uOQH0FcO7kM+CO/6XQRt6QMex2eHCqAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCIkFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADLCMnhwgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Project-Pipeline
+[8mha:////4MON9qSyNTZ/OVCujpNd/V+B0/L8OxXIvNSi64Mj9H5zAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7KBoKTCAAAA[0m[Pipeline] {
+[8mha:////4B3p0ki4JjRjM72BPmyWT0LDybDJJ2hbYLYWHXoU4qVwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBlmkmCe+AAAA[0m[Pipeline] sh
++ ./gradlew check
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :checkstyleMain UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :checkstyleTest UP-TO-DATE
+> Task :test UP-TO-DATE
+> Task :check UP-TO-DATE
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2s
+5 actionable tasks: 5 up-to-date
+[8mha:////4FjAwakwcQaPANuK/fqkUhBIACLr43Py/fc9DBN7v2hJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSoDSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BvQoOE2+AAAA[0m[Pipeline] }
+[8mha:////4FjBNnxey2QFRfb78oMqlUA/PnDFu2iKcMfpErgHsr2jAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHybgAYvgAAAA==[0m[Pipeline] // dir
+[8mha:////4EOTtQpLer6quwvTHT60hKBbUPL7zO2QCGk/891MfUolAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgELvVgHvgAAAA==[0m[Pipeline] }
+[8mha:////4D0yxg83SUXrb5hPimQAJHB/HFg2YMA8A9EGzNaeCakQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJChYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzheA7u+AAAA[0m[Pipeline] // stage
+[8mha:////4BfjwYx2DAvG1N3KnF3Rn3NaLA0ro68zIu9v2zKlAi8gAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUTgyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN16YsrXCAAAA[0m[Pipeline] stage
+[8mha:////4GYGeMBJeT4PqgVkW+sxeGnskdIMiODUW0HzWWPYTNvjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4OzyDyqYjoKjOenlplxI4xSsrhdAvIGBjGH0PSwLDjtOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5B3ife+AAAA[0m[Pipeline] echo
+Pipeline executed successfully!
+[8mha:////4N49+mX9iUMFUEcT4AppltJ/Ui0jFgnefhRn7tjBBDbQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHRRpLuvgAAAA==[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/Project-Pipeline/build/reports/tests/test to /var/jenkins_home/jobs/Project-Pipeline/htmlreports/Test_20Results_3a_20JUnit
+[8mha:////4IspfrZ96Nzag6aYeksuVqPSYlKHkLEuJYGvzxvnkWmWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpT77ad24Q0W0NOhvgAAAA==[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/Project-Pipeline/build/reports/jacoco/test/html to /var/jenkins_home/jobs/Project-Pipeline/htmlreports/Test_20Results_3a_20JaCoCo
+[8mha:////4PE5D2dcpexanUPz6Ipnr/X/5U1dz3wmZtMMiyPOWA/6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFX4ci4vgAAAA==[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/Project-Pipeline/build/reports/checkstyle to /var/jenkins_home/jobs/Project-Pipeline/htmlreports/Test_20Results_3a_20Coding_20Styles
+[8mha:////4L4rIiQ1UjwrXxN8z661lXIG4MiMlYSpH5YY1wRzbKnNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5Sy5ZO+AAAA[0m[Pipeline] publishHTML
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at PROJECT level /var/jenkins_home/workspace/Project-Pipeline/build/reports/checkstyle to /var/jenkins_home/jobs/Project-Pipeline/htmlreports/Test_20Results_3a_20Coding_20Styles_20_28Tests_29
+[8mha:////4MvKr/vzOHijsL5NkeDys5ZZKnPe+FmUgjNpPvX0QnUfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqhSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/Bis1Ykm+AAAA[0m[Pipeline] }
+[8mha:////4CO0cQ4Xvqak0c0lhLN2+m4z6upO3rP3HP3p+PukyGKrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBxKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bmi3M8++AAAA[0m[Pipeline] // stage
+[8mha:////4NCmjFz7e2Mu1VvAXPGLZZatFUH2CSl/w525/aUI/RVfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiVAghqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHd8zIlvgAAAA==[0m[Pipeline] }
+[8mha:////4PKWOcquKOjoSZQ35cJs4sPs10G1rL+R00M8CuCu64K1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISOiREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP2ricoO+AAAA[0m[Pipeline] // withEnv
+[8mha:////4OB4K3IEqWGKACQeJyJfbgrnq1SYvjwh/nVT6PCg/ZFYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuA/1TKsi9AAAA[0m[Pipeline] }
+[8mha:////4N/AHYyBkxun/M32KhYnfm/QxD5hackNbacfZJhVhxsXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AI687hG9AAAA[0m[Pipeline] // node
+[8mha:////4O4xLYgPVRuSMP7nAm83fq5u+gXyLwHKZinHgkukxCVNAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AKiliVu9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
