@@ -34,12 +34,32 @@ pipeline {
             }
         }
 
-        stage('Test') {
+        stage('JUnit Tests') {
             steps {
                 echo 'Running test steps...'
                     dir('.') {
                         // Run the gradlew.bat build command
                         sh './gradlew test'
+                    }
+            }
+        }
+
+        stage('Test Coverage') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew jacocoTestReport'
+                    }
+            }
+        }
+
+        stage('Coding Style Guides') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew check'
                     }
             }
         }
@@ -50,7 +70,10 @@ pipeline {
     post {
         success {
             echo 'Pipeline executed successfully!'
-            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/tests/test', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/tests/test', reportFiles: 'index.html', reportName: 'Test Results: JUnit', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/jacoco/test/html', reportFiles: 'index.html', reportName: 'Test Results: JaCoCo', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/checkstyle', reportFiles: 'main.html', reportName: 'Test Results: Coding Styles', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/checkstyle', reportFiles: 'test.html', reportName: 'Test Results: Coding Styles (Tests)', reportTitles: '', useWrapperFileDirectly: true])
         }
         failure {
             echo 'Pipeline failed. Please check the logs for details.'
