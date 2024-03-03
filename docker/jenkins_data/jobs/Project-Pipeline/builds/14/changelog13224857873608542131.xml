@@ -1,0 +1,21 @@
+commit cfe368b32ce03b7f5947031b1301871f18604f7f
+tree 96b1ea1274581f4a12a78e83c46452dfba40f7ad
+parent 040640358733d1300a94ec887de2bd75586f2dcd
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:46:00 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:46:00 +0100
+
+    Update build.gradle
+
+
+:100644 100644 b5e7856255aaedd6ab077e00c0483bc3816652aa 3fbf7a4941a4f1f063f838f45f5cdc512836e52c M	build.gradle
+commit 040640358733d1300a94ec887de2bd75586f2dcd
+tree a007317e1c21191d18d1ea0227666bccfeea732f
+parent ea244029f15b57d86ab77633894cdc3e6190adab
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:40:02 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:40:02 +0100
+
+    added published to release and snapshot repository
+
+
+:100644 100644 b1704c9ab95c1212cadce1d63a28cec7761ec9b3 b5e7856255aaedd6ab077e00c0483bc3816652aa M	build.gradle
+:100644 000000 b998f0831e0f9e940643ed90d19e9266381571f1 0000000000000000000000000000000000000000 D	tree.txt

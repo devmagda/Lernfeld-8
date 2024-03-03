@@ -1,0 +1,11 @@
+commit 20ca508f803204e4581ec8647ca6b328c643c06e
+tree 153f98d40020190860119f7b38abc1c4dd7bcba9
+parent 85e07c3bc5280790e98d000a0c9820db113f8039
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:05:28 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:05:28 +0100
+
+    renamed jenkinsfile
+
+
+:100644 100644 14b3ae0df0e260e3bdc6d4b5ee9035bf356f6279 14b3ae0df0e260e3bdc6d4b5ee9035bf356f6279 R100	jenkins/pipeline/jenkinsfile	jenkins/pipeline/release
+:000000 100644 0000000000000000000000000000000000000000 14b3ae0df0e260e3bdc6d4b5ee9035bf356f6279 A	jenkins/pipeline/test

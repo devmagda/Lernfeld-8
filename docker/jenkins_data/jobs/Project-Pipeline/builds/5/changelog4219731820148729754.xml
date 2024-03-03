@@ -1,0 +1,10 @@
+commit 5d5888edf69692420f54bfd53db02d60be2ea986
+tree 79d1af3a11332a3dcaa1cc7b4ea6a51636a4862e
+parent ec0774fcc6ca47cc36bc34055956ede487deafb3
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 22:35:34 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 22:35:34 +0100
+
+    fixed uri
+
+
+:100644 100644 1a09b71a45ae34615e7a53f4628e6dc4f7fdb8e7 3ab36ec68f2984589cc5a7d6b0cdbb1d3aab703f M	build.gradle
