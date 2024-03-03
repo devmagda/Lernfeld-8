@@ -1,0 +1,10 @@
+commit b997c17040bf938f23b588f306d33e13b1fc2898
+tree da37390561e3e811a033ac056ec55ff0799fe404
+parent 5d5888edf69692420f54bfd53db02d60be2ea986
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 22:46:22 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 22:46:22 +0100
+
+    Update build.gradle
+
+
+:100644 100644 3ab36ec68f2984589cc5a7d6b0cdbb1d3aab703f 4b95648a7de8ef4d120e1f1f06306d404243c1ee M	build.gradle

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>edu.p</groupId>
+  <artifactId>lernfeld-8</artifactId>
+  <versioning>
+    <lastUpdated>20240303224701</lastUpdated>
+    <snapshot>
+      <timestamp>20240303.224701</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>{version}-20240303.224701-1</value>
+        <updated>20240303224701</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>{version}-20240303.224701-1</value>
+        <updated>20240303224701</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>{version}-20240303.224701-1</value>
+        <updated>20240303224701</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>{version}-SNAPSHOT</version>
+</metadata>

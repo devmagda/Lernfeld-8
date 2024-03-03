@@ -1,4 +1,4 @@
 
 .idea
-docker/jenkins_data
-docker/nexus_data
+docker/jenkins_data/workspace
+docker/nexus_data/cache

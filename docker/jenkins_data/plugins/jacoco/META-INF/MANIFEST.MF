@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Jenkins JaCoCo plugin
+Specification-Version: 3.3
+Implementation-Title: Jenkins JaCoCo plugin
+Implementation-Version: 3.3.5
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: jacoco
+Short-Name: jacoco
+Long-Name: Jenkins JaCoCo plugin
+Url: https://github.com/jenkinsci/jacoco-plugin
+Plugin-Version: 3.3.5
+Hudson-Version: 2.401.3
+Jenkins-Version: 2.401.3
+Plugin-Dependencies: dashboard-view:2.495.v07e81500c3f2;resolution:=opti
+ onal
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Stephen Connolly:stephenco
+ nnolly:,Manuel Carrasco Monino:manolo:manolo@apache.org,Jonathan Fuerth
+ :jfuerth:,David Carver:kingargyle:,Ognjen Bubalo:ognjenb:,Dominik Stadl
+ er:centic:,Christopher Simons:csimons:,Martin Heinzerling:mheinzerling:
+ webmaster@mheinzerling.de
+Plugin-License-Name: MIT license
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/jacoco-plugin
+ .git
+Plugin-ScmTag: jacoco-3.3.5
+Plugin-ScmUrl: https://github.com/jenkinsci/jacoco-plugin
+Plugin-GitHash: 9c500727fd2879819ab3bb91ecae10fdbee5ebe8
+Implementation-Build: 9c500727fd2879819ab3bb91ecae10fdbee5ebe8
+

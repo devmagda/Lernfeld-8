@@ -1,0 +1,10 @@
+commit c87235c92de57ddc91b40e234c71038cc331fbad
+tree 6d47620cc0f7061ff3697d75fe7ce8aeb6f5a4a2
+parent cfe368b32ce03b7f5947031b1301871f18604f7f
+author devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:49:42 +0100
+committer devmagda <113769198+devmagda@users.noreply.github.com> 2024-03-03 23:49:42 +0100
+
+    Create gradle.properties
+
+
+:000000 100644 0000000000000000000000000000000000000000 6ebe9cec100c474f3690f06e88818f2a47ef382d A	gradle.properties

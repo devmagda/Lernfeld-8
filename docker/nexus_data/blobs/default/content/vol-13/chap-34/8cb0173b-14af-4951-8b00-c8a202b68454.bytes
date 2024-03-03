@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "edu.p",
+    "module": "lernfeld-8",
+    "version": "{version}-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lernfeld-8-{version}-SNAPSHOT.jar",
+          "url": "lernfeld-8-{version}-SNAPSHOT.jar",
+          "size": 1734,
+          "sha512": "328360532532c1077d5303feaf50499ee2c5b17a9c100ed2d9c07663c4e962ddd6de49b0810af6559a98522e0a17715d2fbc37ce20a478fd95a987ad11ba423b",
+          "sha256": "c9008486f9d702fbd5cd4976362e9271c63e890eb4d62d41547edb4afad56357",
+          "sha1": "d73afa2e8094adcaea754817929afef076662e95",
+          "md5": "72fb50491ae56eec0176ac85b10cb4b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lernfeld-8-{version}-SNAPSHOT.jar",
+          "url": "lernfeld-8-{version}-SNAPSHOT.jar",
+          "size": 1734,
+          "sha512": "328360532532c1077d5303feaf50499ee2c5b17a9c100ed2d9c07663c4e962ddd6de49b0810af6559a98522e0a17715d2fbc37ce20a478fd95a987ad11ba423b",
+          "sha256": "c9008486f9d702fbd5cd4976362e9271c63e890eb4d62d41547edb4afad56357",
+          "sha1": "d73afa2e8094adcaea754817929afef076662e95",
+          "md5": "72fb50491ae56eec0176ac85b10cb4b5"
+        }
+      ]
+    }
+  ]
+}
