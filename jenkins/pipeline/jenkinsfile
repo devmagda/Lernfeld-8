@@ -13,6 +13,11 @@ pipeline {
 
                     // Optionally, you can perform additional steps after the checkout
                     echo 'Repository has been checked out successfully.'
+
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh 'chmod +x gradlew'
+                    }
                 }
             }
         }
@@ -23,7 +28,6 @@ pipeline {
                     // Change to the directory where your gradlew.bat is located
                     dir('.') {
                         // Run the gradlew.bat build command
-                        sh 'chmod +x gradlew'
                         sh './gradlew build'
                     }
                 }
@@ -33,7 +37,10 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running test steps...'
-                // Your test steps go here
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew test'
+                    }
             }
         }
 
@@ -43,6 +50,7 @@ pipeline {
     post {
         success {
             echo 'Pipeline executed successfully!'
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/tests/test', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
         }
         failure {
             echo 'Pipeline failed. Please check the logs for details.'
