@@ -17,11 +17,15 @@ pipeline {
             }
         }
 
-        // Add more stages as needed for your build process
         stage('Build') {
             steps {
-                echo 'Running build steps...'
-                // Your build steps go here
+                script {
+                    // Change to the directory where your gradlew.bat is located
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        bat './gradlew.bat build'
+                    }
+                }
             }
         }
 
