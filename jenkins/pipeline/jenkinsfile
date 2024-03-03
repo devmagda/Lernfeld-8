@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Define the Git repository URL
-                    def gitRepoUrl = 'https://github.com/your-username/your-repository.git'
+                    def gitRepoUrl = 'https://github.com/devmagda/Lernfeld-8-Project.git'
 
                     // Checkout the repository
                     checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: gitRepoUrl]]])
