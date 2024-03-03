@@ -11,7 +11,7 @@ services:
 #    environment:
 #      - JENKINS_OPTS=--prefix=/jenkins
     volumes:
-      - ./v/j:/var/jenkins_home
+      - ./jenkins_data:/var/jenkins_home
 
   nexus:
     image: sonatype/nexus3:latest
@@ -20,7 +20,7 @@ services:
     ports:
       - "8081:8081"
     volumes:
-      - ./v/n:/nexus-data
+      - ./nexus_data:/nexus-data
 
 volumes:
   jenkins_data:

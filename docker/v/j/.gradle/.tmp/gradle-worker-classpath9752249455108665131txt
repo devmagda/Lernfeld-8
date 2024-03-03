@@ -1,2 +1,0 @@
--cp
-/var/jenkins_home/.gradle/caches/7.6.4/workerMain/gradle-worker.jar:/var/jenkins_home/workspace/Project-Pipeline/build/classes/java/test:/var/jenkins_home/workspace/Project-Pipeline/build/classes/java/main:/var/jenkins_home/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar:/var/jenkins_home/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar

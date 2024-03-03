@@ -62,6 +62,7 @@ pipeline {
                     dir('.') {
                         // Run the gradlew.bat build command
                         sh './gradlew jacocoTestReport'
+                        jacoco()
                     }
             }
         }
