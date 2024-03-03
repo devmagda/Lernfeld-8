@@ -1,2 +1,5 @@
 
 .idea
+
+docker/jenkins_data
+docker/nexus_data
