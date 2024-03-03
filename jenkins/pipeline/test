@@ -1,0 +1,96 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    // Define the Git repository URL
+                    def gitRepoUrl = 'https://github.com/devmagda/Lernfeld-8-Project.git'
+
+                    // Checkout the repository
+                    checkout([$class: 'GitSCM', branches: [[name: '*/main']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: gitRepoUrl]]])
+
+                    // Optionally, you can perform additional steps after the checkout
+                    echo 'Repository has been checked out successfully.'
+
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh 'chmod +x gradlew'
+                    }
+                }
+            }
+        }
+
+        stage('JUnit Tests') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew test'
+                    }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    // Change to the directory where your gradlew.bat is located
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew build'
+                    }
+                }
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                script {
+                    // Change to the directory where your gradlew.bat is located
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew publish'
+                    }
+                }
+            }
+        }
+
+        stage('Test Coverage') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew jacocoTestReport'
+                        jacoco()
+                    }
+            }
+        }
+
+        stage('Coding Style Guides') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew check'
+                    }
+            }
+        }
+        // Add more stages for deployment, etc.
+    }
+
+
+
+    post {
+        success {
+            echo 'Pipeline executed successfully!'
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/tests/test', reportFiles: 'index.html', reportName: 'Test Results: JUnit', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/jacoco/test/html', reportFiles: 'index.html', reportName: 'Test Results: JaCoCo', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/checkstyle', reportFiles: 'main.html', reportName: 'Test Results: Coding Styles', reportTitles: '', useWrapperFileDirectly: true])
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: './build/reports/checkstyle', reportFiles: 'test.html', reportName: 'Test Results: Coding Styles (Tests)', reportTitles: '', useWrapperFileDirectly: true])
+        }
+        failure {
+            echo 'Pipeline failed. Please check the logs for details.'
+        }
+    }
+}
