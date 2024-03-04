@@ -1,19 +1,26 @@
-Tools needed:
-docker & docker-compose
-webbrowser
-IDE
+**Tools needed:**
+* docker & docker-compose
+* webbrowser
+* IDE
 
-Starting project:
+**Starting project:**
+
 cd docker
+
 docker-compose up -d
 
-Stopping project:
+**Stopping project:**
+
 cd docker
+
 docker-compose down
 
-Accessing in Browser:
+
+**Accessing in Browser:**
+
 username: admin
+
 password: admin
 
-Nexus (Software repository): http://localhost:8081
-Jenkins (Build Pipeline): http://localhost:8080
+* Nexus (Software repository): http://localhost:8081
+* Jenkins (Build Pipeline): http://localhost:8080
