@@ -22,16 +22,6 @@ pipeline {
             }
         }
 
-        stage('JUnit Tests') {
-            steps {
-                echo 'Running test steps...'
-                    dir('.') {
-                        // Run the gradlew.bat build command
-                        sh './gradlew test'
-                    }
-            }
-        }
-
         stage('Build') {
             steps {
                 script {
@@ -41,6 +31,16 @@ pipeline {
                         sh './gradlew build'
                     }
                 }
+            }
+        }
+
+        stage('JUnit Tests') {
+            steps {
+                echo 'Running test steps...'
+                    dir('.') {
+                        // Run the gradlew.bat build command
+                        sh './gradlew test'
+                    }
             }
         }
 
